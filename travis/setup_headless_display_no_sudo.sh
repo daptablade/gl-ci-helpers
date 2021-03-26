@@ -1,6 +1,6 @@
 #!/bin/sh
 set -x
-apt update && apt install python-qt4 libgl1-mesa-glx
+apt update && apt install -y python-qt4 libgl1-mesa-glx
 apt-get install -y xvfb
 export DISPLAY=:99.0
 export PYVISTA_OFF_SCREEN=True
